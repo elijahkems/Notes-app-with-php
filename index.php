@@ -20,7 +20,7 @@
     <link rel="shortcut icon" href="favicon.icon" type="image/x-icon" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Notes App</a>
         <button
@@ -45,8 +45,11 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Create Note</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-inline-flex flex-sm-row">
               <a class="nav-link">Login</a>
+              <span>
+                <i class="bi bi-person-circle"></i>
+              </span>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -78,7 +81,9 @@
               Consectetur, ea omnis dolorem temporibus eveniet consequatur
               voluptate minus doloribus suscipit?
             </p>
-            <h1 class="display-6 text-end mx-3">Kevin</h1>
+            <h1 class="display-6 text-end mx-3">
+              Kevin <i class="fa-light fa-circle-user"></i>
+            </h1>
           </div>
           <div class="my-3 shadow-sm p-3 mb-5 bg-body-tertiary rounded">
             <p class="text-start">

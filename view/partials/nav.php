@@ -15,16 +15,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="/index">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Notes</a>
+              <a class="nav-link" href="/notes">Notes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Create Note</a>
+              <a class="nav-link" href="/createnote">Create Note</a>
             </li>
             <li class="nav-item d-inline-flex flex-sm-row">
-              <a class="nav-link">Login</a>
+              <a href="/login" class="nav-link">Login</a>
               <span>
                 <i class="bi bi-person-circle"></i>
               </span>

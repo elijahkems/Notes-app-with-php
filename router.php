@@ -5,12 +5,15 @@ $uri = parse_url($uri)["path"];
 $routes = [
     "/" => "controllers/index.php",
     "/index.php" => "controllers/index.php",
-    "/index" => "controllers/index.php"
+    "/index" => "controllers/index.php",
+    "/notes" => "controllers/notes.php",
+    "/createnote" => "controllers/createnote.php",
+    "/login" => "controllers/login.php"
 ];
 
 function abort () {
     http_response_code(404);
-    require("views/404.php");
+    require("view/404.php");
     die();
 }
 

@@ -1,3 +1,3 @@
 <?php
-$heading = "this is the homepage";
+$heading = "Create Notes here...";
 include "view/index.view.php";

@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="favicon.icon" type="image/x-icon" />
   </head>
-  <body>
+  <body b>
+    <!-- nav  -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Notes App</a>
@@ -66,7 +67,9 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid">
+    <!-- main section -->
+    <main class="container-fluid">
+        
       <div class="container py-3">
         <div class="text-center my-5 rounded">
           <h1 class="display-5 text-start">Create Notes...</h1>
@@ -107,6 +110,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </main>
+    <footer class="container-fluid bg-body-tertiary py-5 ">
+        <div class="container-fluid">
+            <h1 class="text-center display-6 fs-6">create note app @ 2023</h1>
+        </div>
+    </footer>
   </body>
 </html>

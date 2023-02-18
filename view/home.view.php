@@ -6,8 +6,13 @@
     <div class="text-center rounded p-3">
       <h1 class="display-5 text-start">
       <?php echo $heading ?>
+      <span class="d-inline"> 
+        <button href="/createnote" class="btn btn-outline-secondary ms-5">
+          <a class="nav-link" href="/createnote">create note</a>
+        </button>
+      </span>
       </h1>
-
+     
     </div>
     <div class="text-center my-5">
       <!-- notes cards -->

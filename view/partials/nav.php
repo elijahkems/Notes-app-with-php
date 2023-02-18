@@ -30,6 +30,7 @@
               </span>
             </li>
           </ul>
+          <!-- nav search -->
           <form class="d-flex" role="search">
             <input
               class="form-control me-2"
@@ -37,7 +38,7 @@
               placeholder="Search by name or note"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button class="btn btn-outline-success" type="button">
               Search
             </button>
           </form>

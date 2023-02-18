@@ -19,7 +19,7 @@ function assignActiveLink(elements) {
     if (pathname == "/index" && text == "Home") element.classList.add("active");
     if (pathname == "/notes" && text == "Notes")
       element.classList.add("active");
-    if (pathname == "/createnotes" && text == "Create Note")
+    if (pathname == "/createnote" && text == "Create Note")
       element.classList.add("active");
     if (pathname == "/login" && text == "Login")
       element.classList.add("active");

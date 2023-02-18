@@ -1,5 +1,6 @@
-<?php include "partials/head.php"?>
-<?php include "partials/nav.php"?>
+<?php include "partials/head.php" ?>
+<?php include "partials/nav.php" ?>
+<!-- main section -->
 <main class="container-fluid">     
   <div class="container py-3">
     <div class="text-center rounded p-3">

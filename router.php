@@ -3,9 +3,9 @@ $uri = $_SERVER["REQUEST_URI"];
 $uri = parse_url($uri)["path"];
 
 $routes = [
-    "/" => "controllers/index.php",
-    "/index.php" => "controllers/index.php",
-    "/index" => "controllers/index.php",
+    "/" => "controllers/home.php",
+    "/index.php" => "controllers/home.php",
+    "/index" => "controllers/home.php",
     "/notes" => "controllers/notes.php",
     "/createnote" => "controllers/createnote.php",
     "/login" => "controllers/login.php"

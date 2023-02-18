@@ -16,6 +16,7 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script defer src="../../main.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="favicon.icon" type="image/x-icon" />
   </head>

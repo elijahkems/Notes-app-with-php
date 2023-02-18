@@ -13,3 +13,8 @@ function displayArray ($array) {
        echo "<li> $user[name] said: $user[note] </li>"; 
    }
 }
+
+// control active links
+
+
+

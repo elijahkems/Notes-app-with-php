@@ -1,7 +1,6 @@
 const navLinks = document.querySelectorAll("#navbarSupportedContent a");
 const url = new URL(window.location.href);
 const { pathname } = url;
-console.log(pathname, navLinks);
 assignActiveLink(navLinks);
 
 // functions
@@ -15,7 +14,6 @@ function assignActiveLink(elements) {
   removeActiveClass(elements);
   elements.forEach((element) => {
     let text = element.textContent;
-    console.log(text);
     if (pathname == "/index" && text == "Home") element.classList.add("active");
     if (pathname == "/notes" && text == "Notes")
       element.classList.add("active");

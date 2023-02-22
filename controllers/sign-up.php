@@ -1,0 +1,2 @@
+</php
+$heading = "Login form";

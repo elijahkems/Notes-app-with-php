@@ -11,6 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($email) && !empty($password) && !empty($repeatPassword)) {
         $user['email'] = $email;
         $user['pass'] = $password;
+        var_dump($user);
     }
 }
 $heading = "Sign up";

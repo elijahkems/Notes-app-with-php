@@ -4,9 +4,7 @@
 <main class="container-fluid vh-100">     
   <div class="container py-3">
     <div class="text-center rounded p-3">
-      <h1 class="display-5 text-start">
-      <?php echo $heading ?>
-      </h1>
+      <h1 class="display-5 text-center"><?php echo $heading ?></h1>
       <form action="login" method="POST">
         <div class="mb-5 ">
           <label for="exampleInputEmail1" class="form-label float-start">Email address</label>
@@ -26,10 +24,6 @@
           <label class="form-check-label float-start" for="exampleCheck1 float-start">Check me out</label>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
-        <div class="mb-3 form-check">
-          <p>Don't have an account?</p>
-          <a href="/sign-up">Sign up</a>
-        </div>
       </form> 
   </div>
 </main>

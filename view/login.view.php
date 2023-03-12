@@ -4,7 +4,7 @@
 <main class="container-fluid vh-100">     
   <div class="container py-3">
     <div class="text-center rounded p-3">
-    <h1 class="display-5 text-center"><?php echo $heading ?></h1>
+    <h1 class="display-5 text-center">Login form</h1>
       <form action="login" method="POST" id="login-form">
         <div class="mb-5 ">
           <label for="exampleInputEmail1" class="form-label float-start">Email address</label>

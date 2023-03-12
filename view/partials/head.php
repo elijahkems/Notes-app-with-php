@@ -18,5 +18,5 @@
     ></script>
     <script defer src="../../main.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="favicon.icon" type="image/x-icon" />
+    <link rel="shortcut icon" href="/images/notebook.svg" type="image/x-icon" />
   </head>

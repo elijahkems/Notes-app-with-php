@@ -8,8 +8,6 @@ $routes = [
     "/index" => "controllers/home.php",
     "/notes" => "controllers/notes.php",
     "/createnote" => "controllers/createnote.php",
-    "/login" => "controllers/login.php",
-    "/sign-up" => "controllers/sign-up.php"
 ];
 
 function abort () {

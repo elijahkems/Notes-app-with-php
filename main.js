@@ -11,11 +11,11 @@ clearErrorDivs();
 assignActiveLink(navLinks);
 
 //event listeners
-submitBtn.addEventListener("click", (e) => {
-  e.preventDefault();
-  handleFormErrors();
-});
-logoutBtn.addEventListener("click", () => {});
+// submitBtn.addEventListener("click", (e) => {
+//   e.preventDefault();
+//   handleFormErrors();
+// });
+// logoutBtn.addEventListener("click", () => {});
 
 // functions
 function clearErrorDivs() {

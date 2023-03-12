@@ -1,9 +1,8 @@
 <?php
 
-$heading = "Login form";
+// $heading = "Login form";
 include "view/login.view.php";
-var_dump($_POST);
-
+//store user
 function validateString($data) {
     $data = trim($data);
     $data = stripslashes($data);
@@ -14,7 +13,6 @@ function getLoginPost () {
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $user = [];
         $email = $password = "";
-        $errorMessage = "";
         $email = validateString($_POST["login-email"]);
         $password = validateString($_POST["login-password"]);
     
@@ -31,3 +29,9 @@ function getLoginPost () {
 // login
 //  success direct to notes
 // else homepage
+$tempUser = getLoginPost();
+if (!empty($tempUser)) {
+    var_dump($tempUser);
+    // $_SESSION['logged_in'] = true;
+    header("Location: createnote");
+} 

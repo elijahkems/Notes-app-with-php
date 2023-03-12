@@ -15,12 +15,7 @@
           <label for="exampleInputPassword1" class="form-label float-start">Password</label>
           <input type="password" name="login-password" class="form-control" id="exampleInputPassword1" value="1234">
         </div>
-
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label float-start" for="exampleCheck1 float-start">Check me out</label>
-        </div>
-        <button type="submit" id="submit-btn" class="btn btn-primary">Submit</button>
+        <button type="button" id="submit-btn" class="btn btn-primary">Login</button>
         <div class="my-3 form-check lead">
           <p class="d-inline">Don't have an account?</p>
           <a class="" href="/sign-up">Sign up</a>

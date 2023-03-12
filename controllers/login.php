@@ -1,15 +1,8 @@
 <?php
 
-if (false) {
-    $loginInfo = getLoginPost();
-    if ($loginInfo) {
-        $_SESSION["email"] = $loginInfo["email"];
-        $_SESSION["pass"] = $loginInfo["pass"];
-    }
-
-}
 $heading = "Login form";
 include "view/login.view.php";
+var_dump($_POST);
 
 function validateString($data) {
     $data = trim($data);
@@ -33,23 +26,8 @@ function getLoginPost () {
         return $user;
     }
 }
-function isUserLoggedIn(){
-    // Start the session
-    session_start();
-    // If the user is not logged in, redirect them to the login page
-    if( $_SESSION){
-        header('Location: login');
-        exit;
-        return true;
-    }
-    //if user is not 
-    return false;
-}
 
-function loginhandler () {
-
-}
-
-function logoutHandler () {
-
-}
+// check if user is logged in
+// login
+//  success direct to notes
+// else homepage

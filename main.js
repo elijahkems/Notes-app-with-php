@@ -2,6 +2,7 @@ const navLinks = document.querySelectorAll("#navbarSupportedContent a");
 const loginForm = document.querySelector("#login-form");
 const signUpForm = document.querySelector("#sign-up-form");
 const submitBtn = document.querySelector("#submit-btn");
+const logoutBtn = document.querySelector("#logout-btn");
 
 //url and pathname
 const url = new URL(window.location.href);
@@ -14,6 +15,7 @@ submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
   handleFormErrors();
 });
+logoutBtn.addEventListener("click", () => {});
 
 // functions
 function clearErrorDivs() {

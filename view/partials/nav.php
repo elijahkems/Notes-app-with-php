@@ -29,6 +29,16 @@
                 <i class="bi bi-person-circle"></i>
               </span>
             </li>
+            <li class="nav-item d-inline-flex flex-sm-row">
+              <form action="login" method="POST">
+                <input type="text" value="logout" name="logout" class="d-none">
+                <button type="submit" class="border rounded"><a href="/login" id="logout-btn" class="nav-link ">Login out</a>
+                </button>
+              </form>
+              <span>
+                <i class="bi bi-person-circle"></i>
+              </span>
+            </li>
           </ul>
           <!-- nav search -->
           <form class="d-flex" role="search">
